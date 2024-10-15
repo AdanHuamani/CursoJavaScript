@@ -23,7 +23,7 @@ cuando nosotros programamos hacemos uso de `memoria de trabaj○`,
 para trabajar con los bits que se encuentran en nuestro mar de bits, javascript ordena los bits en pequeñas partes o piezas de informacion a esto se le conoce como **VALORES**
 
 Cada valor tiene una funcionalidad distinta puede ser un numero, texto o una funcion.
-cuando habloamos de tipo de datos de javascript nos referimos a su representacion binaria y al tipo de valor que usamos. **En JavaScript se le conoce como:**
+cuando hablamos de tipo de datos de javascript nos referimos a su representacion binaria y al tipo de valor que usamos. **En JavaScript se le conoce como:**
 ### Datos primitivos:
 son aquellos datos que ya existen no pueden ser creados, actualizados ni eliminados solo pueden ser llamados para el uso que deseamos dar.
 Los datos primitivos en javascript son:
@@ -57,7 +57,7 @@ Los valores de tipo numero como es de esperar son numero y en javascript se escr
 -2.998e8
 ```
 > [!WARNING]
-> Cuando javascript realiza operacion con numeros enteros el resultado simepre sera exacto, cuando realice operaciones con numeros decimales el resulado perdera presicion por que solo tiene 64 bits para almacenar esto suele ocurrir con resultados cuyos decimales sean infinitos com en el caso del numero pi. **Es nuestra responsabilidad como programador hacer el uso de los decimales con aproximaciones para evitar errores.**
+> Cuando javascript realiza operacion con numeros enteros el resultado siempre sera exacto, cuando realice operaciones con numeros decimales el resulado perdera presicion por que solo tiene 64 bits para almacenar esto suele ocurrir con resultados cuyos decimales sean infinitos como en el caso del numero pi. **Es nuestra responsabilidad como programador hacer el uso de los decimales con aproximaciones para evitar errores.**
 
 > [!TIP]
 > Cuando javascript hace trabajo de memoria **(cuando crea un patron de bits para almacenar)** todos los numeros son almacenados como decimal positivo.
@@ -74,7 +74,7 @@ Los valores de tipo numero como es de esperar son numero y en javascript se escr
  
   ```
 #### Aritmetica 
- La aritmetica(Operadores aritmeticos)principal operacion que se puede hacer con numeros es la aritmetica.
+ La aritmetica (Operadores aritmeticos) principal operacion que se puede hacer con numeros es la aritmetica.
  Para esto tenemos lo operadores aritmeticos como:
  - suma(+).
  - resta (-).
@@ -115,7 +115,7 @@ conosle.log('" este texto se muestra entre comillas dobles"')
 //si nuestro texto tendra tanto comillas dobles como simples
 console.log(`'comilla simple' , "comilla doble"`)
 ```
-otra manerade de hacer lo antes mencionado es haciendo uso de la barra invertida `\` tambien conocida como `caracter de escape`.
+otra manera de hacer lo antes mencionado es haciendo uso de la barra invertida `\` tambien conocida como `caracter de escape`.
 Hacer uso de este caracter indica que el caracter posterior tendra un significado especial.
 ```js
 console.log("este texto solo esta \"palabra\" estara en comillas")
@@ -144,21 +144,21 @@ este texto no esta tabulado
     este texto si esta tabulado
 `
 ```
-Ahora tabularemos ahciendo uso del caracter de escape ( \ )
+Ahora tabularemos haciendo uso del caracter de escape ( \ )
 
 ```js
 console.log("Tabulado \n \t No tabulado")
 ```
 #### Concatenacion
 
-El unico operador aritmetico que puede ser usado por cadenas es el operador de suma (+) pude ser usado entre dos o mas cadenas y pasa a llamarse operador de concatenacion, lo que realiza es unir cadena en una sola.
+El unico operador aritmetico que puede ser usado por cadenas es el operador de suma (+) puede ser usado entre dos o mas cadenas y pasa a llamarse operador de concatenacion, lo que realiza es unir cadena en una sola.
 
 ```js
 "hola"+" "+"mundo"
 
 ```
 #### Plantillas literares
-Las plantillas literles mencionadas anteriormente con el nombre de **acento grave** son usadas para mostrar texto literal, tambien nos permite ejecutar codigo JS dentro de una plantilla literal el codigo o resultado del codigo sera transformado en un dato de tipo texto y sera incluira en la posicion en que se encuentre.
+Las plantillas literles mencionadas anteriormente con el nombre de **acento grave** son usadas para mostrar texto literal, tambien nos permite ejecutar codigo JS dentro de una plantilla literal el codigo o resultado del codigo sera transformado en un dato de tipo texto y sera incluido en la posicion en que se encuentre.
 Para hacer uso de esta funcionalidad debemos usar, la expresion `${}`
 
 ```js
@@ -171,7 +171,7 @@ Para hacer uso de esta funcionalidad debemos usar, la expresion `${}`
 
 #### Operadores Unarios
 No todos los operadores son simbolo, algunos se escriben como palabras.
-Un ejemplo es el operador`typeof`, es el operador que produce un valor de cadena que indica el tipo de valor que le proporcionamos.
+Un ejemplo es el operador`typeof`, es el operador que produce un valor de cadena que indica el tipo de valor que el proporcionamos.
 `Operadores binarios` se les conoce por que operan sobre dos valores `2*5`
 
 ```js
@@ -189,7 +189,7 @@ para este proposito, JavaScript tiene dos tipos de datos `Booleano`, que tiene s
    - Menor que (<)
    - Mayor o igual que (>=)
    - Menor o igual que (<=)
-   - Igual a (===)
+   - Igual a (==)
    - Estrictamente igual (===)
    - No es igual a (!=)
   
@@ -198,7 +198,7 @@ para este proposito, JavaScript tiene dos tipos de datos `Booleano`, que tiene s
    - AND (Y) EN JAVASCRIPT `&&`.
    - OR (O) EN JAVASCRIPT `||`.
    - NOT (NO) EN JAVASCRIPT `!`, 
-  **OBSERVACIO:NOT este es un operador unario que su funcion es invertir el valor que tiene a su derecha `!TRUE` produce `FALSE`**
+  **OBSERVACION : NOT es un operador unario que su funcion es invertir el valor que tiene a su derecha `!TRUE` produce `FALSE`**
 
 > [!TIP] 
 > **AND `&&`** - si tenemos dos valores verdaderos devolvera el segundo valor verdadero, si tenemos un valor falso y uno verdadero devolvera el valor falso
@@ -219,5 +219,5 @@ para este proposito, JavaScript tiene dos tipos de datos `Booleano`, que tiene s
 #### OPERADOR TERNARIO (utiliza 3 valores):
 Este operador trabaja con 3 valores.
 El primer valor es el que determinara si se muestra el resto de los valores.
-Eso quiere decir que si el primer valor es verdadero mostrara el segundo valor mientras que si falso mostrara el tercer valor
+Eso quiere decir que si el primer valor es verdadero mostrara el segundo valor, mientras que si falso mostrara el tercer valor
 ![alt text](image.png)
