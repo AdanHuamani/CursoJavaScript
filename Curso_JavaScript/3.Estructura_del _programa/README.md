@@ -100,3 +100,31 @@ if comparacion{
   promt("escribe tu nombre")
 }
 ```
+-**Condicion simple ``if`` de una sola linea**
+```js
+if (1+1=2 console.log)("es verdad");
+```
+- **Condicion de doble evaluacion `if else`**
+Existen casos en los que tendremos que ejecutar un codigo si es verdad pero tambien si es falso. ejecucion condicional de 2 caminos.
+```js
+let edadPersona = 16;
+if (edadPersona >= 18){
+  console.log("eres mayor de edad");
+}else{
+  console.log("eres menor de edad");
+}
+``` 
+- **Condicion multiple `if` `Else if`** 
+  Se utiliza cunado se tiene que evaluar y devolver varias opciones o multiples respuestas.
+  ```js
+  let totalCompra=50
+  if (totalCompra > 50 && totalCompra < 100){
+    console.log(`Tienes un descuento del 10% ${totalCompra*010}`)
+  }
+  else if (totalCompra > 100 && totalCompra < 500){
+    console.log(`Tienes un descuento del 20% ${totalCompra*0.20}`)
+  }
+  else{
+    console.log("Tines un descuento del 50%")
+  }
+  ```
