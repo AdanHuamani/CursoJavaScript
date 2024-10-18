@@ -11,6 +11,7 @@
   - [El Entorno](#el-entorno)
   - [Control de Flujo](#control-de-flujo)
     - [Ejecucion condicional](#ejecucion-condicional)
+    - [Bucles](#bucles)
 
 ## INTERACCION BASICA CON EL USUARIO
 Podemos interactuar con el usuario desde JavaScript, utilizando un metodo sencillo que viene implementado en los navegadores.
@@ -128,3 +129,39 @@ if (edadPersona >= 18){
     console.log("Tines un descuento del 50%")
   }
   ```
+### Bucles
+Consideremos el siguente problema
+crear un programa que imprima los numeros del 1 al 12. una forma de hacerlo seria el suguiente.
+```js
+console.log(1)
+console.log(2)
+console.log(3)
+console.log(4)
+console.log(5)
+console.log(6)
+console.log(7)
+console.log(8)
+console.log(9)
+console.log(10)
+console.log(11)
+console.log(12)
+```
+El ejemplo anterior es valido pero la idea cuando programamos es hacer menos trabajo nomas, en el ejercicio anterior tendriamos tendriamos si deseamos mostrar todos los numeros menores a 1000.
+Necesitamos una manera de ejecutar un fragmento de codigo multiples veces a esta forma de control de flujo se le llama bucle. Para crear un bucle tenemos dos formas de hacerlo.
+1.  `white` - Para hacer uso de este bucle primero debemos usar la palabra clave `white` este asu vez como el if devera tener una condicion si esta condicion es verdad se ejecutara indefinidamente en caso la condicion sea falsa el bucle no sera ejecutado, al igual que el if luego de darle una condicion creamos el `cuerpo` donde escribiremos el codigo que deseamos ejecutar.
+```js
+while (true){
+  console.log("hola")
+}
+```
+2. `for` esta es la manera mas abreviada de crear un bucle en javascript, en el caso de while necesitamos una variable contador luego la condicion y finalmente el aumento del contador. en el caso de `for` estos 3 pasos se realizan en una sola linea.
+```js
+for (let i=2; i<=20; i++){
+  if(contador%2==0) console.log(contador)
+}
+```
+> [!TIP] 
+> [while] WHile se usa cuando no sabemos la cantidad de veces que deseamos ejecutar un codigo,por lo general su finalizacion requirira de una intervencion externa. `for` se usa cuando sabemos la cantidad de veces  ue deseamos ejecutar un codigo.
+
+>[!NOTE]
+> Para terminar un bucle se hace uso de la palabra reservada `break`

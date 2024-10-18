@@ -51,3 +51,4 @@ else if (edad >=14 && edad <=17){
 }
 else (edad >=18 && edad <=100)
     console.log("Te ganaste al premo")
+    
