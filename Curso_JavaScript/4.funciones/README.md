@@ -70,5 +70,15 @@ com¿nsole.log(respuestaa)
 ### Argumentos y Parametros Nominales
 Se les conoce a los argumentos que en su creacion se asocian a un parametros en especifico.
 ```js
-
+function registroAlumno(nombre,apellido,sexo){
+    let respuesta= `${nombre},${apellido},${sexo}`
+    return
+}
+//NOMINAL
+registroAlumno(sexo="M", nombre="ADAN",apellido="HUAMANI" )
+//POSICIONAL
+registroAlumno("Adan","HUamani","M"
+)
 ```
+> [!INFO]
+> Posicionales en orden y Nomminales especificar el parametro y su valor.
