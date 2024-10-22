@@ -1,6 +1,6 @@
 # Practica numero 2
 ## Instrucciones
-Crear un archivo html y asociarlo a los archivos Jaavascript que crearan.
+Crear un archivo html y asociarlo a los archivos Javascript que crearan.
 Crear un archivo js por cada ejercicio.
 ## EJERCICIO
 ### 1. Escribe un bucle que realize siete llamadas console para mostrar el siguiente triangulo:
