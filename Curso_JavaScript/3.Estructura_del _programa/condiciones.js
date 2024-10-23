@@ -39,16 +39,44 @@
  * - Si su edad esta entre 14 a 17 años: te ganaras un celular nokia
  * - Si su edad es mayor o igual a 18: te ganaras al primo y lo haces leña.
  */
-let edad = prompt("Ingresa tu edad")
-if (edad >=4 && edad<=8){
-    console.log("Te ganaste un chupetin")
+// let edad = prompt("Ingresa tu edad")
+// if (edad >=4 && edad<=8){
+//     console.log("Te ganaste un chupetin")
+// }
+// else if (edad >=9 && edad <=13){
+//     console.log("Te ganaste una pelota firmada")
+// }
+// else if (edad >=14 && edad <=17){
+//     console.log("Te ganaste un celular Nokia")
+// }
+// else (edad >=18 && edad <=100)
+//     console.log("Te ganaste al premo")
+
+//EJERCICIO
+//Realizar un programa que pida 5 Nombres a travez del navegador
+//Y realizar las siguientes evaluaciones
+//naranja,limon -> "Es una fruta citrica"
+//platano, manzana -> "Es una fruta dulce"
+//fresa, pera y papaya -> "parala ensalda de fruta"
+//Si ingresa otro tipo de frutas -> "No tiene clasificacion"
+for (let i=1;i<=5; i++){
+    let fruta=prompt("Ingresa el nombre de la Fruta numero:",i)
+    switch(fruta){
+        case (fruta=="Naranja" || fruta=="Limon"):
+            console.log(fruta,"Es una furta citrica")
+            break
+        case "Platano":
+        case "Manzana":
+            console.log(fruta,"Es una fruta dulce")
+            break
+        case "Fresa":
+        case "Pera":
+        case "Papaya":
+            console.log(fruta,"Para ensalada de fruta")
+            break
+        default:
+            console.log("No tiene clasificacion")
+            break;
+    }
 }
-else if (edad >=9 && edad <=13){
-    console.log("Te ganaste una pelota firmada")
-}
-else if (edad >=14 && edad <=17){
-    console.log("Te ganaste un celular Nokia")
-}
-else (edad >=18 && edad <=100)
-    console.log("Te ganaste al premo")
     
