@@ -16,7 +16,7 @@
 ## INTERACCION BASICA CON EL USUARIO
 Podemos interactuar con el usuario desde JavaScript, utilizando un metodo sencillo que viene implementado en los navegadores.
 El metodo es conocido como: `window` o el metodo de `ventana` este metodo en realidad es un objeto que contiene o almacena varias funciones entre ellas las de mostrar mensajes o pedir datos al usuario.
-- **alert** - esta funcion nos muestra un mensaje en pantalla
+- **alert** - Esta funcion nos muestra un mensaje en pantalla
 ```js
 window.alert("mensaje")
 ```

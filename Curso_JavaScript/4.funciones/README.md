@@ -121,4 +121,58 @@ console.log(saludo())
 
 let mensaje=texto=>console.log("hola:",texto)
 console.log(mensaje("primo"))
+//en el caso de tener mas de un parametro y ejecutar mas de una linea de codigo
+let registroUsuario=(nombre,apellido)=>{
+    let alumno= `${nombre},${apellido}`
+    return alumno
+}
+console.log(registroUsuario("edwin","cachondo"))
+```
+## DIFERENCIAS
+las diferencias que tenemos al momento de crear una funcion declarativa, funcion como valor y flecha. Es el binding
+### Binding 
+es una tecnica que guarda las funciones y variables (enlaces) sube al principio la declaracion, no el valor,al principio del archivo javascript.
+```js
+despedida()
+function saludo(){
+    return "hola primo"
+}
+function despedida(){
+    return "adios primo"
+}
+```
+```js
+saludo()
+despedida()
+```
+## La pila de llamada (call stack)
+es una tecnica que se usa para controlar de manera correcta la ejecucion de una funcion 
+**Averiguar sobre LIFO**
+En informática, el término LIFO se utiliza en estructuras de datos y teoría de colas. Guarda analogía con una pila de platos, en la que los platos van poniéndose uno sobre el otro, y si se quiere sacar uno, se saca primero el último que se ha puesto. LIFO es el algoritmo utilizado para implementar pilas.
+```js
+//programa que haga una ensalada
+function cortarTomate() {
+    console.log("cortar tomate")
+}
+function cortarLechuga() {
+    console.log("cortando lechuga")
+}
+function cortarPepino(params) {
+    console.log("Cortando pepino para el premo")
+}
+function cortarLimon() {
+    console.log("cortando limon")
+}
+function preparandoEnsalada() {
+    cortarTomate()
+    cortarLechuga()
+    cortarPepino()
+    cortarLimon()
+    console.log("mezclando las verduras")
+}
+function comer() {
+    preparandoEnsalada()
+    console.log("comiendo la ensalada")
+}
+comer()
 ```
