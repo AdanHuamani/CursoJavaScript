@@ -45,11 +45,27 @@ son funciones que nos permiten crear actualizar y eliminar los elemntos de una l
   let vocales=["a","e"]
   vocales.pop()
 
-### Tarea averiguar que otros metodos existen para el tratamiento  de listas en javascript
-//Trabajo
-//Tengo una lista de 7 frutas
-// Crear un programa que identifique si en mi lista existe naranja de existir me mostrara su indice, de no existir me mostrara un mensaje de error
-// Lista de frutas
-//Crear dos funciones que reciban por parametros una lista de numeros, una funcion encontrara y devolvera el numero menor de la lista y la otra funcionn encontratara y devolvera el numero mayor de la lista. no usar los metodos de min y max
-// Función para encontrar el número menor
-//Crear una funcion que me permita contar la cantidad de vocales "a" que tengo en una lista
+## Taerea averiguar los metodos mas usados que existen para el tratamiento de listas en javasrip
+### Objetos
+los objetos son tipos de datos estructurados similares a la lista, para poder acceder a un elemento de la lista javascript les asignaba indices, en este caso los objetos como unica diferencia de las listas nosotros podemos asignar el nombre del elemento al cual deseamos accerder a esto se le connoce como.
+``clave:valor`
+cada clave: valor es un elemento de un objeto si deseamos crear mas elemento tendremos que separarlos por comas.
+### Creacion
+para crear un objeto debemos encerrar los elementos en llaves `{}` para el elemento estara conformado por su `clave:valor`.
+```javascript
+let datosJory=["Jory","Rodriguez",20,"M"]
+let datosJoryObjeto={
+  nombre:"Jory",
+  apellido:"Rodriguez",
+  edad:20,
+  sexo:"Todos los dias",
+  ganado:["el premo","los chamos","las enfermeras","mineros"]
+  direccion:{
+    tipoCalle: "Pasaje",
+    nombreCalle: "Querobamba",
+    numeroVivienda: 222,
+    numeroCuarto: 5
+  },
+  accion:()=>{console.log("Hola soy Jory")}
+}
+```
