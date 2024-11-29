@@ -11,18 +11,6 @@
 // }
 // console.log(vocales.length)
 
-
-//### Tarea averiguar que otros metodos existen para el tratamiento  de listas en javascript
-//Trabajo
-//Tengo una lista de 7 frutas
-// Crear un programa que identifique si en mi lista existe naranja de existir me mostrara su indice, de no existir me mostrara un mensaje de error
-// Lista de frutas
-//Crear dos funciones que reciban por parametros una lista de numeros, una funcion encontrara y devolvera el numero menor de la lista y la otra funcionn encontratara y devolvera el numero mayor de la lista. no usar los metodos de min y max
-// Función para encontrar el número menor
-//Crear una funcion que me permita contar la cantidad de vocales "a" que tengo en una lista
-
-
-
 // let texto="hola mundo"
 // //["hola","mundo"]
 // let listaTexto=texto.split(" ")
@@ -62,7 +50,7 @@
 // console.log(datosJoryObjeto["sexo"])
 // console.log(datosJoryObjeto.ganado[3])
 
-//Crear una funcion que me genre un objeto de caracteristicas tecnicas de una computadora, el objeto debera tenr como minimo los siguientes valores.
+//Crear una funcion que me genere un objeto de caracteristicas tecnicas de una computadora, el objeto debera tenr como minimo los siguientes valores.
 //marca,modelo,procesador,ram,disco y targeta de video.
 function Computadora(marca, modelo, procesador, ram, disco, tarjetaDeVideo) {
     let computadora = {

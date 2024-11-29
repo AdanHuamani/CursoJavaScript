@@ -1,0 +1,30 @@
+## Tarea averiguar los metodos mas usados que existen para el tratamiento de listas en javascript
+En JavaScript, existen numerosos métodos populares y útiles para trabajar con listas (arrays). Aquí tienes un resumen de los más utilizados:
+
+1. **Iteración y recorrido:**
+   - `forEach()`: Recorre cada elemento de un array para realizar una acción específica sin retornar un nuevo array.
+   - `map()`: Aplica una función a cada elemento y retorna un nuevo array con los resultados.
+   - `filter()`: Filtra elementos que cumplen una condición, devolviendo un nuevo array.
+
+2. **Reducción y acumulación:**
+   - `reduce()`: Combina los elementos de un array en un único valor según una función acumulativa.
+   - `some()`: Verifica si al menos un elemento cumple una condición, devolviendo un valor booleano.
+   - `every()`: Similar a `some()`, pero verifica si todos los elementos cumplen una condición.
+
+3. **Manipulación de elementos:**
+   - `push()` y `pop()`: Agregan o eliminan elementos al final del array.
+   - `shift()` y `unshift()`: Agregan o eliminan elementos al inicio del array.
+   - `splice()`: Agrega, elimina o reemplaza elementos en una posición específica.
+   - `slice()`: Extrae una porción del array y devuelve un nuevo array sin modificar el original.
+
+4. **Búsquedas:**
+   - `indexOf()` y `lastIndexOf()`: Encuentran la posición de un elemento.
+   - `find()` y `findIndex()`: Retornan el primer elemento o índice que cumple una condición.
+
+5. **Transformaciones:**
+   - `reverse()`: Invierte el orden de los elementos.
+   - `concat()`: Combina dos o más arrays en uno nuevo.
+   - `flat()`: Aplana arrays anidados hasta una profundidad especificada.
+
+6. **Validaciones:**
+   - `isArray()`: Comprueba si un valor es un array.

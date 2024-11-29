@@ -1,3 +1,4 @@
+# INDICE
 # Estructura de datos
 ## Lista o Array
 Son listas en javacript son un tipo de dato estructurado que no se permite almacenar distintos tipos de datos primitivos separados por comas, cada tipo de dato que se almacene en una lista se le conoce como elemento.
@@ -45,10 +46,9 @@ son funciones que nos permiten crear actualizar y eliminar los elemntos de una l
   let vocales=["a","e"]
   vocales.pop()
 
-## Taerea averiguar los metodos mas usados que existen para el tratamiento de listas en javasrip
 ### Objetos
 los objetos son tipos de datos estructurados similares a la lista, para poder acceder a un elemento de la lista javascript les asignaba indices, en este caso los objetos como unica diferencia de las listas nosotros podemos asignar el nombre del elemento al cual deseamos accerder a esto se le connoce como.
-``clave:valor`
+`clave:valor`
 cada clave: valor es un elemento de un objeto si deseamos crear mas elemento tendremos que separarlos por comas.
 ### Creacion
 para crear un objeto debemos encerrar los elementos en llaves `{}` para el elemento estara conformado por su `clave:valor`.
